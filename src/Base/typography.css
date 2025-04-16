@@ -1,0 +1,17 @@
+body{
+    font-family: 'Arial', sans-serif; 
+    line-height: 1.6;
+    font-size:16px;
+    color:var(--color-dark);
+    background-color: var(--color-light);   
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight:bold;
+    line-height:1.25;
+    margin-bottom: var(--spacing-2);
+}
+
+p{
+    margin-bottom: var(--spacing-2);
+}

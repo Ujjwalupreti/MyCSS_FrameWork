@@ -1,0 +1,23 @@
+.alert { 
+    padding: var(--spacing-2); 
+    border-left: 4px solid var(--color-primary); background: #e7f1ff; 
+}
+
+.alert-success{
+    background-color: #e7f1ff;
+    border-radius: var(--color-primary);
+    color:var(--color-secondary);
+}
+
+.alert-warning{
+    background-color: #f8d7da;
+    border-color: var(--color-red);
+    color: var(--color-light);
+}
+
+.alert-info{
+    background-color:#d1ecf1;
+    border-color:#0c5460;
+    color: #0c5460;
+}
+

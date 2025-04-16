@@ -1,0 +1,33 @@
+*,*::after,*::before{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    line-height:1.5;
+}
+
+img,picture,video,canvas{
+    display: inherit;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.border{
+    border: solid var(--color-dark) var(--spacing-0);
+    border-radius: var(--radius-md);
+}
+
+.border-dark{
+    border: solid var(--color-black) var(--spacing-0);
+    border-radius: var(--radius-md);
+}
