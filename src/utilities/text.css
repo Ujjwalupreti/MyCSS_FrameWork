@@ -1,0 +1,30 @@
+.text-center{
+    text-align: center;
+}
+.text-primary{
+    color:var(--color-dark);
+}
+.text-rigth{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-dack{
+    color: var(--color-dark);
+}
+.text-light{
+    color: var(--color-light);
+}
+.text-sm{
+    font-size: var(--font-sm);
+}
+.text-md{
+    font-size:var(--font-md);
+}
+.text-lg{
+    font-size:var(--font-lg);
+}
+.font-bold{
+    font-weight: 700;
+}
